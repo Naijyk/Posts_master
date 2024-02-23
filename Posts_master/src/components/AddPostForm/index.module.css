@@ -1,0 +1,22 @@
+.add_post_form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.add_post_form input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add_post_form button {
+    width: 200px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    font-size: 16px;
+    cursor: pointer;
+}

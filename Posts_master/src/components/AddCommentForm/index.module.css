@@ -1,0 +1,19 @@
+.add_comment_form {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 15px 0;
+}
+
+.add_comment_form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add_comment_form button {
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}

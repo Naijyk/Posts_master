@@ -1,0 +1,42 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+}
+
+.post p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.post > div:first-child {
+    border: 1px solid #E32636;
+    border-radius: 5px;
+    width: 65px;
+    padding: 10px;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.cross:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+}

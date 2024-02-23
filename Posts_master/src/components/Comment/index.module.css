@@ -1,0 +1,10 @@
+.comment {
+    color: darkgray;
+    border-bottom: 1px dashed darkgray;
+    text-align: start;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
